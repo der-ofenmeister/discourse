@@ -1064,6 +1064,7 @@ email:
   email_accent_bg_color:
     type: color
     default: "#2F70AC"
+    validator: "CssColorValidator"
   email_accent_fg_color: "#FFFFFF"
   email_link_color: "#006699"
   show_topic_featured_link_in_digest: false
